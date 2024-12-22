@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridLayout rows="auto" columns="100, *" class="list-group-item p-2">
+    <Image src="{{ images[0] }}" width="80" height="80" class="rounded-lg" row="0" col="0" />
+    <StackLayout row="0" col="1" class="ml-2">
+        <Label text="{{ title }}" class="font-bold text-lg" />
+        <Label text="{{ formattedPrice }}" class="text-green-600" />
+        <Label text="{{ formattedDetails }}" class="text-gray-500" />
+        <Label text="{{ formattedAddress }}" class="text-gray-500" />
+    </StackLayout>
+</GridLayout>

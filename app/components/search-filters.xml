@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridLayout rows="auto" columns="*" class="p-4 bg-white">
+    <ScrollView orientation="horizontal">
+        <StackLayout orientation="horizontal" class="space-x-2">
+            <Button text="Price" tap="{{ showPriceFilter }}" class="btn btn-outline" />
+            <Button text="Beds & Baths" tap="{{ showRoomsFilter }}" class="btn btn-outline" />
+            <Button text="Property Type" tap="{{ showTypeFilter }}" class="btn btn-outline" />
+            <Button text="More Filters" tap="{{ showMoreFilters }}" class="btn btn-outline" />
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
